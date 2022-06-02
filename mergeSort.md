@@ -19,3 +19,5 @@ Dizi öncelikle tek eleman kalana kadar parçalanır. Daha sonra sıralanarak bi
 # Big O Gösterimi
 
 O(nlogn) şeklindedir.
+
+[Patika Profilim](https://app.patika.dev/ranaelif)
