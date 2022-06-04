@@ -1,0 +1,22 @@
+rltctrl+B side barı kapatıp açar
+
+ctrl+p üstteki menü kısmı açılır. açılan kısma > işareti yazarak da ayarlar kısmını açabiliriz
+
+ctrl+shift+p ile üst menüdeki ayarlar kısmı açılır, > işaretini silerek menüye dönebiliriz
+
+ctrl+s kaydet
+
+ctrl+k s hepsini kaydet
+
+ctrl+tab bir sonraki sekmeye geçiş yapmak (editor alanında)
+
+ctrl+w ile açık olan sekemeleri kapatır veya ctrl+F4 
+
+minimap sağ tarafta görülen bar, hatalarımızı ve metinde nerede olduğumuzu gösteriyor
+
+breadcrumbs olduğumuz çalışma sayfasının adının yanındaki ikonda klasör içinde nerede olduğumuzu 
+gösteriyor. üstüne tıklayarak başka dosyalara geçebiliyoruz
+
+whitespace özelliği kelimeler arasında açık gri renkte nokta görülmesini sağlıyor 
+(html için geçerli olabilir)
+

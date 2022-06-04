@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Test borakasme.com Emmet
+<!--id tanımlama: div#emmetdiv-->
+    <div id="emmetdiv"></div>
+
+<!--css tanımlama: div.table.tbl_funcy-->
+    <div class="table tbl_funcy"></div>
+
+<!--ekleme ve alta inme: div+div>p>ul>li-->    
+    <div></div>
+    <div>
+        <p>
+            <ul>
+                <li></li>
+            </ul>
+        </p>
+    </div>
+
+<!--akışta yukarı bir çıkma: div+div>p>span+em^bq-->
+    <div></div>
+    <div>
+        <p><span></span><em></em></p>
+        <blockquote></blockquote>
+    </div>
+
+<!--grup() ve çoklama*: div>(header>ul>li*2>a)+footer>p-->
+    <div>
+        <header>
+            <ul>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </header>
+        <footer>
+            <p></p>
+        </footer>
+    </div>
+
+<!--sıralı artan elemanlar$: ul>li.item$*5-->    
+    <ul>
+        <li class="item1"></li>
+        <li class="item2"></li>
+        <li class="item3"></li>
+        <li class="item4"></li>
+        <li class="item5"></li>
+    </ul>
+
+<!--sıralı azalan 3 basamaklı dizim @- : ul>li.item$$$@-*6-->
+    <ul>
+        <li class="item006"></li>
+        <li class="item005"></li>
+        <li class="item004"></li>
+        <li class="item003"></li>
+        <li class="item002"></li>
+        <li class="item001"></li>
+    </ul>   
+
+<!--yazı {} : p>{Tıkla }+a{detay}+{ devamı…}-->
+    <p>Tıkla <a href="">detay</a> devamı...</p>    
+
+<!--genel örnek: (header>ul.nav>li*4>item$*2)+footer-->    
+    <header>
+        <ul class="nav">
+            <li>
+                <item1></item1>
+                <item2></item2>
+            </li>
+            <li>
+                <item1></item1>
+                <item2></item2>
+            </li>
+            <li>
+                <item1></item1>
+                <item2></item2>
+            </li>
+            <li>
+                <item1></item1>
+                <item2></item2>
+            </li>
+        </ul>
+    </header>
+    <footer></footer>
+
+<!--kısa tanımlamalar 1: “table>tr#row$*4>td[colspan=2]” yerine table>#row$*4>[colspan=2]--> 
+    <table>
+        <tr id="row1">
+            <td colspan="2"></td>
+        </tr>
+        <tr id="row2">
+            <td colspan="2"></td>
+        </tr>
+        <tr id="row3">
+            <td colspan="2"></td>
+        </tr>
+        <tr id="row4">
+            <td colspan="2"></td>
+        </tr>
+    </table>
+
+<!--kısa tanımlamalar 2: “ul>li.item*3” yerine ul>.item*3-->
+    <ul>
+        <li class="item"></li>
+        <li class="item"></li>
+        <li class="item"></li>
+    </ul>
+
+<!--lorem ipsum (test amaçlı yazı) dummy text : ul.generic-list>lorem10.item*4-->    
+    <ul class="generic-list">
+        <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, sequi?</li>
+        <li>Unde, commodi quod? Labore voluptatem fuga rerum consequuntur alias temporibus.</li>
+        <li>Adipisci aliquam placeat quasi dicta et asperiores numquam quidem omnis!</li>
+        <li>Vel ex eveniet eaque unde deserunt quo doloremque cumque enim.</li>
+    </ul>
+
+<!--Source: https://code.visualstudio.com/docs/editor/emmet -->
+<!--türkçesi: https://www.borakasmer.com/emmet-nedir/ -->   
+
+</body>
+</html>

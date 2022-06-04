@@ -1,0 +1,163 @@
+<!--Etiketlerin Listesi-->
+
+<!--
+    Genel olarak etiketler şu şekilde yazılır:
+    <etiket>YAZI</etiket>
+    Bazı etiketler kapatılmaya ihtiyaç duymaz.
+    <br>, <meta>, <hr> gibi
+-->
+
+<!--
+    İlk oluşturulması gereken etiketler html, head ve body etiketleridir.
+-->
+
+<html>
+    <head></head>
+    <body></body>
+</html>
+
+<!--
+    Head etiketi site ziyaretçileri tarafından görülmez.
+    Head etiketi içine yazılabilecek etiketler şunlardır:
+        <title> (bu etiketi kullanmak şarttır)
+        <meta>
+        <style>
+        <script>
+        <noscript>
+        <link>
+        <base>
+-->
+
+<html>
+
+    <head>
+        <title> Sekmede görülecek isim </title>
+        <meta name="Keywords" content="HTML, Kodluyoruz">
+    </head>
+
+    <body></body>
+
+</html>
+
+<!--
+    <body></body> etiketi içinde sitede görünür olacak içerikler yazılır.
+    Bundan sonraki bahsedilecek diğer etiketler body etiketi içinde kullanılmaktadır.
+-->
+
+<!--
+    IDE'ler üzerinde !+Enter yazarak html yapısını hızlıca oluşturabiliriz.
+    Aşağıdaki şekilde görünür. "en" yerine "tr" yazabiliriz.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<!--
+    Başlık etiketleri <h> etiketidir. Büyükten küçüğe doğru h1, h2, h3, h4, h5, h6 şeklindedir.
+-->
+
+    <h1>Kodluyoruz</h1>
+
+<!--
+    <p> etiketi paragraf etiketidir. 
+-->
+
+    <p>Paragraf olduğunu düşün burda.</p>
+
+<!--
+    <br> satır atlatma etiketidir. Atlatmak istediğimiz satır sayısı kadar yazabiliriz.
+    <br>, <br/>, <br /> kullanımlarının hepsi geçerlidir ve aynı işlevi yerine getirir.
+    br etiketi kapatmaya ihtiyaç duymaz.
+-->
+
+<!--
+    <a> etiketinin en önemli özelliği href özelliğidir, link vermeye yarar.
+    Etiket içerisine yazılan içerik sayfa üzerinde gösterilecek içeriktir.
+    href içerisine yazılan ise tıklandığında gideceği URL'dir.
+-->
+
+    <a href="https://www.kodluyoruz.org">Kodluyoruz</a>  
+
+<!--
+    ul, ol, li etiketleri listeler için kullanılır.
+    ul- unordered list (sırasız liste)
+    ol- ordered list (sıralı liste)
+    li- liste içerikleri için kullanılır.
+-->
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+<!--
+    <hr> etiketi konusal bir geçişi temsil eder.
+    Yazı yazarken yeni bir paragrafa başlamaya benzetmişler.
+    Paragraf aralarında kullanabiliyoruz.
+-->
+
+    <p>...</p>
+    <hr>
+    <p>...</p>
+
+<!--
+    <strong> etiketi metnin arama motorlarına önemli olduğunu bildirmek için kullanılır.
+    Metni kalın yapar. Eğer sadece kalın yapmak istersek <b> etiketini kullanabiliriz.
+-->
+
+    <h1><strong> Kodluyoruz </strong></h1>
+    <p><b> HTML </b> Etiketleri </p>
+
+<!--
+    <script> etiketi JavaScript kodlarını html içine yazmamızı sağlar.
+-->
+
+    <script>
+        document.write("Kodluyoruz")
+    </script>
+
+<!--
+    <button> etiketini buton oluşturmak için kullanıyoruz. 
+    Buton içine yazmak istediğiniz içeriği etiket içine yazıyoruz.
+-->
+
+    <button> BUTON </button>
+
+<!--
+    <img> etiketini resim eklemek için kullanıyoruz.
+    src="" kısmına görselin yolunu yazıyoruz. 
+    Eğer html dosyamız ve görselimiz aynı klasördeyse görselin adını ve uzantısını yazmamız yeter.
+    alt="" kısmına görselin açıklamasını yazıyoruz. Boş da kalabilir.
+    Bu etiketi kapanmaya ihtiyaç duymaz.
+-->
+
+    <img src="görseller/kodluyoruz.jpg" alt="Kodluyoruz Bootcamp" />
+
+<!--
+    <iframe> etiketi belge içinde belge göstermemizi sağlıyor.
+    Genellikle başka bir sitedeki belgeyi kendi sitemizde göstermek için kullanırız.
+    Örneğin bir YouTube videosu. (Bunun için videoya sağ tıklayıp yerleştirme kodunu almalıyız.)
+-->
+
+    <iframe width="786" height="442" src="https://www.youtube.com/embed/0fVYpn90BDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<!--
+    Yorum satırı zaten belgenin başından beri kullanıyorum. :D
+-->
